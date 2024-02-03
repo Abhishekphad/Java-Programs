@@ -1,0 +1,11 @@
+public class MyClass {
+    private static int count = 0; // count is a static variable
+
+    public MyClass() {
+        count++;
+    }
+
+    public static int getCount() {
+        return count;
+    }
+}
